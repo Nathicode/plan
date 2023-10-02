@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    bordger: 2px solid;
+    font-family: Roboto;
+    font-weight: bold;
+}
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: lightgreen;
+}
+.top {
+    
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    font-size: smaller;
+}
+h1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+ 
+}
+sectghion {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    accent-color: black;
+}
+.medium {
+    height: 70vh;
+    border: 2px solid black;
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 5px;
+}
+.medium div {
+    height: 33%;
+}
+.two, .three {
+  display: flex;
+  justify-content: center;;
+  flex-direction: column;
+}
+select {
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+}
+.medium div {
+    
+    margin: auto;
+}
+.medium label {
+    text-align: center;
+}
+button {
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    margin-top: 55px;
+    text-align: center;
+    background: black;
+    justify-content: center;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+}
+.two label{
+    margin-top: 15px;
+}
+select {
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: black;
+    color: white;
+}
+.medium {
+    
+}
+.bottom {
+    width: 100%;
+    justify-content: space-around;
+    display: none;
+    flex-wrap: wrap;
+}
+.bottom p {
+    background: black;
+    color: white;
+    border-radius: 5px;
+    width: 40%;
+    text-align: center;
+    font-weight: lighter;
+}

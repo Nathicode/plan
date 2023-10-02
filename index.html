@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page title</title>
+    <link rel="stylesheet" href="plan.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Heebo:wght@300&family=Nunito+Sans:opsz@6..12&family=Open+Sans:ital,wght@0,300;1,700&family=Ysabeau+Infant:wght@1&family=Ysabeau+SC:wght@500&display=swap" rel="stylesheet">
+    <script src="plan.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <h1 id="abcd">Student Plan Generator</h1>
+        </div>
+        <div class="medium" id="medium">
+            <div class="one">
+                <label>ትምህርት የመቀበል አቅሞ ምንያህል ነው?</label><br>
+            <input type="radio" name="rad" id="gobez">ጎበዝ<br><br>
+            <input type="radio" name="rad" id="mediums">መካከለኛ<br><br>
+             <input type="radio" name="rad" id="lazy">ምንም አልልም<br>
+            
+            </div>
+             <div class="two">
+                <label>ምን ላይ ጎበዝ ኖት?</label><br>
+            <select id="select">
+                <option value="">ምረጡ</option>
+   <option value="physics">Physics</option>
+  <option value="chemistry">Chemistry</option>
+   <option value="maths">Maths</option>
+    <option value="english">English</option>
+    <option value="biology">Biology</option>
+    <option value="civics">Civics</option>
+    <option value="history">History</option>
+   <option value="geography">Geography</option>
+   </select>
+            </div>
+           
+            <div class="three">
+                <label>ምን ላይ ደካማ ኖት?</label><br>
+            <select id="selects">
+                <option value="">ምረጡ</option>
+   <option value="physics2">Physics</option>
+  <option value="chemistry2">Chemistry</option>
+   <option value="maths2">Maths</option>
+    <option value="english2">English</option>
+    <option value="biology2">Biology</option>
+    <option value="civics2">Civics</option>
+    <option value="history2">History</option>
+   <option value="geography2">Geography</option>
+   </select>
+    <button onclick="myfuncs()">ይስሩ</button>  
+            </div>
+            
+             </div>
+          
+       
+        <div class="bottom" id="bottom">
+            <p>Math</p><p id="math"></p>
+            <p>Physics</p><p id="physics"></p>
+        <p>Chemistry</p><p id="chemistry"></p>
+        <p>English</p><p id="english"></p>
+        <p>Biology</p><p id="biology"></p>
+        <p>Civics</p><p id="civics"></p>
+        <p>History</p><p id="history"></p>
+        <p>Geography</p><p id="geography"></p>
+        <p>Sum</p><p id="sum"></p>
+        </div>
+    </div>
+</body>
+</html>
